@@ -70,7 +70,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AppAndFlow/react-native-ease.git"
+    "url": "git+https://github.com/appandflow/react-native-ease.git"
   },
   "author": "Janic Duplessis <janic@appandflow.com> (https://github.com/janicduplessis)",
   "license": "MIT",

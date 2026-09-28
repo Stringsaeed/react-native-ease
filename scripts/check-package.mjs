@@ -27,6 +27,13 @@ if (manifest.publishConfig?.registry !== 'https://registry.npmjs.org/') {
   throw new Error('Package registry must be the public npm registry.');
 }
 
+if (
+  manifest.repository?.url !==
+  'git+https://github.com/appandflow/react-native-ease.git'
+) {
+  throw new Error('Repository URL must match GitHub casing for npm provenance.');
+}
+
 for (const required of [
   'README.md',
   'LICENSE',
